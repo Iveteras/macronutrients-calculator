@@ -1,0 +1,82 @@
+body{
+    background-color: rgb(5, 29, 59);
+    color: rgba(107, 209, 255);
+    font-family: 'Didact Gothic';
+}
+header{
+    width: 40%;
+    margin: 20px auto;
+    text-align: center;
+}
+.title{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+.explain{
+    font-size: 20px;
+}
+.data-container{
+    width: 30%;
+    margin: auto;
+    border: 1px solid rgb(107, 209, 255);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+}
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    width: 85%;
+    margin-bottom: 10px;
+}
+.info-title{
+    margin-right: 20px;
+}
+input[type="radio"]{
+    accent-color: rgb(107, 209, 255);
+}
+.input-bar{
+    background: none;
+    border: 1px solid rgb(107, 209, 255);
+    border-radius: 10px;
+    width: 220px;
+    padding-left: 5px;
+    color: rgb(107, 209, 255);
+}
+.info-button{
+    text-align: center;
+    margin-top: 20px;
+}
+.button{
+    background-color: rgb(107, 209, 255);
+    width: 90%;
+    height: 30px;
+    color: rgb(5, 29, 59);
+    border: none;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: rgba(107, 208, 255, 0.6);
+    font-weight: bold;
+}
+
+input[type="number"]:focus {   
+    outline: 1px solid rgb(107, 209, 255);
+    
+}
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+select option{
+    background: rgb(5, 29, 59);
+}
+select:focus{
+    outline: 1px solid rgb(107, 209, 255);
+}
+.error-message{
+    font-size: 13px;
+    color: rgb(254, 72, 72);
+    margin-top: 10px;
+}

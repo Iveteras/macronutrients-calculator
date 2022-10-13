@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Macros</title>
+
+    <link rel="shortcut icon" href="images/Sonya-Swarm-Gym.ico" type="image/x-icon">
+    <link href='https://fonts.googleapis.com/css?family=Didact Gothic' rel='stylesheet'>
+    <link rel="stylesheet" href="style/reset.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/results.css">
+    <link rel="stylesheet" href="style/responsive.css">
+</head>
+<body>
+    <header>
+        <h1 class="title">Calculadora de Macros</h1>
+        <p class="explain">Essa calculadora tem o intuito de calcular quantos macronutrientes você deve ingerir por dia baseado no seu objetivo</p>
+    </header>
+    
+    <form class="data-container">
+
+        <div class="info info-gender">
+            <h2 class="info-title">Gênero</h2>
+
+            <div class="gender-box">
+                <label for="masculino">Masculino</label>
+                <input type="radio" name="gender" id="male" checked>
+
+                <label for="feminino">Feminino</label>
+                <input type="radio" name="gender" id="female">
+            </div>
+            
+        </div>
+
+        <div class="info info-age">
+            <h2 class="info-title">Idade</h2>
+
+            <input type="number" name="age" class="input-bar" id="age">
+        </div>
+
+        <div class="info info-height">
+            <h2 class="info-title">Altura</h2>
+
+            <input type="number" name="height" class="input-bar" id="height" placeholder="cm">
+        </div> 
+        
+        <div class="info info-weight">
+            <h2 class="info-title">Peso</h2>
+
+            <input type="number" name="weight" class="input-bar" id="weight" placeholder="kg">
+        </div>  
+
+        <div class="info info-activity">
+            <h2 class="info-title">Atividade física</h2>
+
+            <select name="activity" class="input-bar" id="activity">
+                <option value selected disabled>Escolha sua intensidade</option>
+                <option value="sedentario">Sedentário: não faço exercícios</option>
+                <option value="leve">Leve: (1-3) dias/semana</option>
+                <option value="moderado">Moderado: (3-4) dias/semana</option>
+                <option value="ativo">Ativo: (4-5) dias/semana</option>
+                <option value="muito-ativo">Muito ativo: (6-7) dias/semana</option>
+            </select>
+        </div>
+
+        <div class="info info-goal">
+            <h2 class="info-title">Objetivo</h2>
+
+            <select name="goal" class="input-bar" id="goal">
+                <option value selected disabled>Escolha seu objetivo</option>
+                <option value="emagrecer">Perder peso</option>
+                <option value="manter">Manter o peso</option>
+                <option value="engordar">Ganhar peso</option>
+            </select>
+        </div>
+
+        <div class="info-button">
+            <button class="button">CALCULAR</button>
+        </div>
+        
+    </form>
+
+    <script src="script/error.js"></script>
+    <script src="script/resetForm.js"></script>
+    <script src="script/calculateMacros.js"></script>
+    <script src="script/results.js"></script>
+    <script src="script/main.js"></script>  
+</body>
+</html>

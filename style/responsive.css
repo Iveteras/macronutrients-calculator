@@ -1,0 +1,45 @@
+@media(max-width: 768px){
+    /*info container*/
+
+    header{
+        width: 90%;
+    }
+    .title{
+        font-size: 30px;
+        margin-bottom: 10px;
+    }
+    .explain{
+        font-size: 15px;
+    }
+    .data-container{
+        width: 80%;
+    }
+    .info{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        margin-bottom: 10px;
+        text-align: center;
+        width: 100%;
+    }
+    .info-title{
+        margin-bottom: 10px;
+        width: 100%;
+        margin-right: 0;
+    }
+    .input-bar{
+        margin: auto;
+    }
+
+    /*results*/
+    .results-container{
+        width: 80%;
+    }
+    .results-flex{
+        font-size: 15px;
+    }
+    .input-bar option{
+        width: 80%;
+        font-size: 10px;
+    }
+}

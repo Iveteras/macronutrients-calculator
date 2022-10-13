@@ -1,0 +1,48 @@
+.results-container{
+    width: 30%;
+    margin: 20px auto;
+    background-color: rgb(107, 209, 255);
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 20px;
+    color: rgb(5, 29, 59);
+}
+.warning{
+    text-align: center;
+    font-weight: bold;
+}
+.results{
+    margin-top: 30px;
+}
+.results-flex{
+    display: flex;
+    margin-bottom: 5px;
+}
+.results-flex h4{
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
