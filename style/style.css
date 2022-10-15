@@ -1,6 +1,11 @@
+:root{
+    --light-blue: rgba(107, 209, 255);
+    --dark-blue: rgb(5, 29, 59);
+    --error-color: rgb(254, 72, 72);
+}
 body{
-    background-color: rgb(5, 29, 59);
-    color: rgba(107, 209, 255);
+    background-color: var(--dark-blue);
+    color: var(--light-blue);
     font-family: 'Didact Gothic';
 }
 header{
@@ -18,7 +23,7 @@ header{
 .data-container{
     width: 30%;
     margin: auto;
-    border: 1px solid rgb(107, 209, 255);
+    border: 1px solid var(--light-blue);
     border-radius: 5px;
     padding: 20px;
     font-size: 20px;
@@ -33,22 +38,22 @@ header{
     margin-right: 20px;
 }
 input[type="radio"]{
-    accent-color: rgb(107, 209, 255);
+    accent-color: var(--light-blue);
 }
 .input-bar{
     background: none;
-    border: 1px solid rgb(107, 209, 255);
+    border: 1px solid var(--light-blue);
     border-radius: 10px;
     width: 220px;
     padding-left: 5px;
-    color: rgb(107, 209, 255);
+    color: var(--light-blue);
 }
 .info-button{
     text-align: center;
     margin-top: 20px;
 }
 .button{
-    background-color: rgb(107, 209, 255);
+    background-color: var(--light-blue);
     width: 90%;
     height: 30px;
     color: rgb(5, 29, 59);
@@ -61,7 +66,7 @@ input[type="radio"]{
 }
 
 input[type="number"]:focus {   
-    outline: 1px solid rgb(107, 209, 255);
+    outline: 1px solid var(--light-blue);
     
 }
 input[type="number"]::-webkit-outer-spin-button,
@@ -73,10 +78,10 @@ select option{
     background: rgb(5, 29, 59);
 }
 select:focus{
-    outline: 1px solid rgb(107, 209, 255);
+    outline: 1px solid var(--light-blue);
 }
 .error-message{
     font-size: 13px;
-    color: rgb(254, 72, 72);
+    color: var(--error-color);
     margin-top: 10px;
 }
